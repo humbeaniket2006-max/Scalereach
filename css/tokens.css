@@ -1,0 +1,68 @@
+/*
+ * Design tokens.
+ * Colors, radius and fonts match the light theme defined on scalereach.ai
+ * (shadcn-style neutral palette with the ScaleReach blue primary).
+ */
+:root {
+  /* Color */
+  --color-bg: #fafafa;
+  --color-surface: #ffffff;
+  --color-surface-muted: #f0f0f0;
+  --color-border: #e5e5e5;
+  --color-border-strong: #d4d4d4;
+
+  --color-text: #0a0a0a;
+  --color-text-secondary: #404040;
+  --color-text-muted: #5c5c5c; /* 6.4:1 on the page background */
+
+  --color-primary: #2553cb;
+  --color-primary-strong: #1a3d8f;
+  --color-primary-soft: #eef2fb;
+  --color-primary-border: #c9d5f3;
+  --color-selected-surface: #f7f9fe;
+
+  --color-success: #16a34a;
+  --color-danger: #dc2626;
+  --color-danger-text: #b91c1c;
+  --color-danger-soft: #fef2f2;
+
+  --color-caption-highlight: #facc15;
+  --color-on-media: #ffffff;
+  --color-media-scrim: rgb(0 0 0 / 0.6);
+
+  /* Type */
+  --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;
+
+  --text-xs: 0.75rem;   /* 12 */
+  --text-sm: 0.8125rem; /* 13 */
+  --text-md: 0.875rem;  /* 14 */
+  --text-lg: 0.9375rem; /* 15 */
+  --text-xl: 1.375rem;  /* 22 */
+
+  /* Space (4px scale) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+
+  /* Shape */
+  --radius-sm: 6px;
+  --radius: 7px;   /* .45rem, as on scalereach.ai */
+  --radius-md: 10px;
+  --radius-lg: 12px;
+
+  /* Motion */
+  --duration-fast: 120ms;
+  --duration: 200ms;
+
+  /* Layout */
+  --topbar-height: 56px;
+  --sidebar-width: 244px;
+  --detail-width: 328px;
+  --content-max: 1440px;
+}
